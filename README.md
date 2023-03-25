@@ -347,7 +347,7 @@ So, the route expects a payload that matches the format of StudentSchema. Exampl
     "year": 2,
     "gpa": "3.0",
 }
-Fire up the Uvicorn server:
+# Fire up the Uvicorn server:
 
 (venv)$ python app/main.py
 And refresh the interactive API documentation page at http://localhost:8000/docs to view the new route:
@@ -539,5 +539,5 @@ Run heroku open to open your app in your default browser.
 
 You have successfully deployed your application to Heroku. Test it out.
 
-Conclusion
+# Conclusion
 In this tutorial, you learned how to create a CRUD app with FastAPI and MongoDB and deploy it to Heroku. Perform a quick self-check by reviewing the objectives at the beginning of the tutorial. You can find the code used in this tutorial on GitHub.
